@@ -27,7 +27,7 @@
         {
             "type": "inspec",
             "inspec_env_vars": [ "CHEF_LICENSE=accept"],
-            "profile": "https://github.com/chef/compliance-profiles/blob/master/dist/latest/supported/cis-amazonlinux2-level1-1.0.0-5.tar.gz"
+            "profile": "https://github.com/colinedwardwood/image-hardening/blob/master/cis-amazonlinux2-level1-1.0.0-5.tar.gz"
         },
         {
             "type": "shell",
