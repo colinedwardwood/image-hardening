@@ -8,6 +8,8 @@ phases:
       - curl -qL -o packer.zip https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip && unzip packer.zip
       - echo "Installing jq..."
       - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
+      - echo "Installing Chef InSpec..."
+      - curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P inspec
       - echo "Validating amazon-linux_packer-template.json"
       - ./packer validate amazon-linux_packer-template.json
   build:
