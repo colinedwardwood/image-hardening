@@ -27,7 +27,7 @@
         {
             "type": "inspec",
             "inspec_env_vars": [ "CHEF_LICENSE=accept"],
-            "profile": "https://github.com/colinedwardwood/image-hardening/tree/master/cis-amazonlinux2-level1-1.0.0-5"
+            "profile": "https://github.com/colinedwardwood/image-hardening/cis-amazonlinux2-level1-1.0.0-5"
         },
         {
             "type": "shell",
