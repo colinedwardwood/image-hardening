@@ -25,6 +25,11 @@
 
     "provisioners": [
         {
+            "type": "inspec",
+            "inspec_env_vars": [ "CHEF_LICENSE=accept"],
+            "profile": "https://github.com/dev-sec/linux-baseline"
+        },
+        {
             "type": "shell",
             "inline": [
                 "sudo yum update -y",
