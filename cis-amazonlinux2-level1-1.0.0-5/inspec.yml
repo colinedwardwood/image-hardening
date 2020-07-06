@@ -1,0 +1,12 @@
+---
+name: cis-amazonlinux2-level1
+title: CIS Amazon Linux 2 Benchmark Level 1
+summary: CIS Amazon Linux 2 Benchmark Level 1 translated from SCAP
+version: 1.0.0-5
+maintainer: Chef Software, Inc.
+copyright: Chef Software, Inc.
+copyright_email: support@chef.io
+license: Proprietary, All rights reserved
+supports:
+- platform-name: amazon
+  release: '2'
